@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SMINT Demo</title>
+
+<meta name = "keywords" content = "ACE Spatial" />
+<meta name = "description" content = "ACE Spatial" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1 user-scalable=no">
+
+
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ --><script type="text/javascript" 	src="js/lib/jquery-2.0.3.min.js"></script>
+
+<script type="text/javascript" 	src="js/lib/jquery.smint.js"></script>
+<script type="text/javascript">
+	
+
+$(document).ready( function() {
+    $('.subMenu').smint({
+    	'scrollSpeed' : 1000
+    });
+});
+
+
+</script>
+
+</head>
+<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
+
+	<div class="wrap">
+
+	  <div class="subMenu" >
+	 	<div class="inner">
+	 		<a href="#" id="sHome" class="subNavBtn">Home</a> 
+			<a href="#" id="sService" class="subNavBtn">Service</a>
+			<a href="#" id="sExpertise" class="subNavBtn">Expertise</a>
+			<a href="#" id="sCaseStudy" class="subNavBtn">Case Study</a>
+			<a href="#" id="sPartner" class="subNavBtn">Partner</a>
+			<a href="#" id="sContact" class="subNavBtn end">Contact</a>
+		</div>
+		
+		
+				
+	</div>
+
+
+	<div class="section sHome">
+		<div class="inner">
+			<h1>ACE Spatial, LLC </h1>
+			<p>A Geospatial Service Company</p>
+		</div>
+		<br class="clear">
+	</div>
+
+	<div class="section sService">
+		
+		<div class="inner">
+			<h1>Service</h1>
+			<ul>
+				<li>Spatial Data Analysis</li>
+				<li>Web Mapping Application</li>
+				<li>Data Visualization</li>
+			</ul>
+
+		</div>
+
+	</div>
+
+	<div class="section sExpertise">
+		<div class="inner">
+			<h1>Expertise</h1>
+			<ul>
+				<li>ArcGIS Suite: ArcGIS Server, ArcSDE, Javascripe API, Flex API</li>
+				<li>Open Source Spatial Stack: GeoServer, OpenLayers, Leaflet, GDAL</li>
+				<li>Emgerging Mapping Libraries: MapBox, CartoDB</li>
+				<li>Data Visualization: D3.js, HTML5, CSS3, Highchart</li>
+				<li>Spatial Database Management: Oracle Spatial, Postgis</li>
+				<li>Programming Languages: J2EE, c#, Javascript, Node.js, Python, PHP</li>
+			</ul>
+		</div>
+
+	</div>
+
+	<div class="section sCaseStudy">
+		<div class="inner">
+		<h1>Case Study</h1>
+		<ul>
+			<li>National Broadband Map</li>
+			<li>Prince William County Mapper</li>
+			<li>FCC Pirate Radio Map</li>
+			<li>International CAll Traffic Visualization</li>
+			<li>US Public School Map</li>
+		</ul>
+		</div>
+
+	</div>
+
+	<div class="section sPartner">
+		<div class="inner">
+			<h1>Partner</h1>
+
+		</div>
+
+	</div>
+
+	<div class="section sContact">
+		<div class="inner">
+		
+		<h1>Contact</h1>
+		<p>Phone: (301) 222 7549</P>
+		<p>Email: info@acespatial.com</p>
+		
+		</div>
+
+	</div>
+
+	
+
+</div>
+
+<script type="text/javascript">
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9804757-1']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ 
+</script>
+
+</body>
+</html>
