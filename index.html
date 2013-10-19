@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>ACE Spatial</title>
+<title>SMINT | The simple jQuery plugin for lovers of one page websites.</title>
 
 <meta name = "keywords" content = "ACE Spatial" />
-<meta name = "description" content = "ACE Spatial" />
+<meta name = "description" content = "ACE Spatial, A Geospatial Service Company" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1 user-scalable=no">
 
-
+<meta property="og:title" content="ACE Spatial"/>
+<meta property="og:image" content=""/>
+<meta property="og:site_name" content="ACE Spatial"/>
+<meta property="og:description" content="ACE Spatial, A Geospatial Service Company"/>
 
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
 
 <link href="css/style.css" rel="stylesheet" type="text/css">
-<!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
- --><script type="text/javascript" 	src="js/lib/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<!-- <script type="text/javascript" src="js/lib/jquery-2.0.3.min.js"></script> -->
 
 <script type="text/javascript" 	src="js/lib/jquery.smint.js"></script>
+
 <script type="text/javascript">
 	
 
@@ -28,92 +33,173 @@ $(document).ready( function() {
 
 </script>
 
-</head>
-<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
+<script>
+window.addEventListener("load",function() {
+  setTimeout(function(){
+    window.scrollTo(0, 1);
+  }, 0);
+});</script>
 
-	<div class="wrap">
+</head>
+<body>
+	<div class="wrap ">
+	
 
 	  <div class="subMenu" >
 	 	<div class="inner">
-	 		<a href="#" id="sHome" class="subNavBtn">Home</a> 
-			<a href="#" id="sService" class="subNavBtn">Service</a>
-			<a href="#" id="sExpertise" class="subNavBtn">Expertise</a>
-			<a href="#" id="sCaseStudy" class="subNavBtn">Case Study</a>
-			<a href="#" id="sPartner" class="subNavBtn">Partner</a>
-			<a href="#" id="sContact" class="subNavBtn end">Contact</a>
-		</div>
-		
-		
-				
+	 		<a href="#" id="sTop" class="subNavBtn">Home</a> 
+			<a href="#" id="s1" class="subNavBtn">Service</a>
+			<a href="#" id="s2" class="subNavBtn">Expertise</a>
+			<a href="#" id="s3" class="subNavBtn">Case Study</a>
+<!-- 			<a href="#" id="s4" class="subNavBtn">Partner</a> -->
+			<a href="#" id="s5" class="subNavBtn end">Contact</a>
+		</div>			
 	</div>
 
 
-	<div class="section sHome">
-		<div class="inner">
-			<h1>ACE Spatial, LLC </h1>
-			<p>A Geospatial Service Company</p>
+	<div class="section sTop">
+		
+		<div class="inner txtCenter">
+			<img src="images/spatial.png" alt="ACE Spatial - A Geospatial Service Company" class="logo">
+			<h1 class="title">ACE Spatial, LLC</h1>
+			<h2>A Geospatial Service Company</h2>
+			<div class="homeNews">
+			<p><strong>All About GeoSpatial</strong></p>
+			<div class="col-1-2">
+				<div class="content">
+					<p>ACE Spatial provides full range geospatial services.</p>
+					<p>From spatial data analysis, web mapping application, geospatial system integration, to data visualization, we have thme all covered!</p>
+				</div>
+			</div>	
+
+			<div class="col-1-2">
+				<div class="content">
+					<p><strong>So whats make us standout?</strong></p>
+					<p>Our staff have extensive experiece on both mainstream ESRI world and emerging, more excited open source stack.</p>
+					<p>With most of staff having exceptional background in Computer Science, we offer geospatial service in broad IT context rather than confined into GIS world.</p>
+				</div>
+			</div>	
+
+			<p>Please contact us to learn more about our offerings!</p>
+			</div>	
 		</div>
 		<br class="clear">
 	</div>
 
-	<div class="section sService">
+
+
+
+
+	<div class="section s1">
 		
 		<div class="inner">
-			<h1>Service</h1>
+			<div class="col-2-3">
+				<div class="content">
+				<p class="header">What exactly do we do?</p>
 			<ul>
 				<li>Spatial Data Analysis</li>
 				<li>Web Mapping Application</li>
 				<li>Data Visualization</li>
 			</ul>
 
+				</div>
+			</div><br class="clear">
 		</div>
 
 	</div>
 
-	<div class="section sExpertise">
+	<div class="section s2">
 		<div class="inner">
-			<h1>Expertise</h1>
-			<ul>
-				<li>ArcGIS Suite: ArcGIS Server, ArcSDE, Javascripe API, Flex API</li>
-				<li>Open Source Spatial Stack: GeoServer, OpenLayers, Leaflet, GDAL</li>
-				<li>Emgerging Mapping Libraries: MapBox, CartoDB</li>
-				<li>Data Visualization: D3.js, HTML5, CSS3, Highchart</li>
-				<li>Spatial Database Management: Oracle Spatial, Postgis</li>
-				<li>Programming Languages: J2EE, c#, Javascript, Node.js, Python, PHP</li>
-			</ul>
+			<div class="col-1-1"><p class="header">So how do we do it?</p></div>
+			<div class="col-1-2">
+				<div class="content">					
+					<p>We use the right technology for the job</p>
+					<ul>
+						<li>ArcGIS Suite: ArcGIS Server, ArcSDE, Javascripe API, Flex API</li>
+						<li>Open Source Spatial Stack: GeoServer, OpenLayers, Leaflet, GDAL</li>
+						<li>Emgerging Mapping Libraries: MapBox, CartoDB</li>
+						<li>Data Visualization: D3.js, HTML5, CSS3, Highchart</li>
+						<li>Spatial Database Management: Oracle Spatial, Postgis</li>
+						<li>Programming Languages: J2EE, c#, Javascript, Node.js, Python, PHP</li>
+					</ul>				
+				</div>
+			</div>
+
+			<div class="col-1-2">
+				<div class="content">
+					<p>We assemble the right resource for the job </p>
+					<ul>
+						<li>Geospatial expert</li>
+						<li>Data scientist</li>
+						<li>Project management and agile methodology expert</li>
+						<li>Data visualization expert and designer</li>
+						<li>Cloud computing implementer</li>
+					</ul>
+				</div>
+			</div>
+
+			<br class="clear">
 		</div>
 
 	</div>
 
-	<div class="section sCaseStudy">
+	<div class="section s3">
 		<div class="inner">
-		<h1>Case Study</h1>
-		<ul>
-			<li>National Broadband Map</li>
-			<li>Prince William County Mapper</li>
-			<li>FCC Pirate Radio Map</li>
-			<li>International CAll Traffic Visualization</li>
-			<li>US Public School Map</li>
-		</ul>
+			
+			<div class="col-1-2">
+				<div class="content">
+				<p> We have involved in projects raning from large, national level enterprise system to small, map-centric applications.</p>
+				<p>Regardless the project scale, we provided full SDLC support.
+					
+				</div>
+			</div>
+			<div class="col-1-2">
+				<div class="content">
+					<p class="header">Case Study</p>
+					<ul>
+						<li>National Broadband Map</li>
+						<li>Prince William County Mapper</li>
+						<li>FCC Pirate Radio Map</li>
+						<li>International CAll Traffic Visualization</li>
+						<li>US Public School Map</li>
+					</ul>
+				</div>
+			</div>
+<br class="clear">
 		</div>
 
 	</div>
 
-	<div class="section sPartner">
+	<!-- <div class="section s4">
 		<div class="inner">
-			<h1>Partner</h1>
+			<p class="header">Partner</p>
+			<div class="col-1-2">
+				<div class="content">
+					&nbsp;
+				</div>
+				
+			</div>
+			<div class="col-1-2">
+				<div class="content">
 
+					
+				</div>
+			</div>
+<br class="clear">
 		</div>
 
-	</div>
+	</div> -->
 
-	<div class="section sContact">
+	<div class="section s5">
 		<div class="inner">
-		
-		<h1>Contact</h1>
-		<p>Phone: (301) 222 7549</P>
-		<p>Email: info@acespatial.com</p>
-		
+			<div class="col-2-3">&nbsp;</div>
+			<div class="col-1-3">
+				<div class="content">
+				<p class="header">Contact</p>
+				<p>Phone: (301) 222 7549</P>
+				<p>Email: info@acespatial.com</p>
+				</div>
+			</div><br class="clear">
 		</div>
 
 	</div>
@@ -121,20 +207,15 @@ $(document).ready( function() {
 	
 
 </div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-<script type="text/javascript">
- 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-9804757-1']);
-  _gaq.push(['_trackPageview']);
- 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
- 
+  ga('create', 'UA-44992161-1', 'acespatial.com');
+  ga('send', 'pageview');
+
 </script>
-
 </body>
 </html>
